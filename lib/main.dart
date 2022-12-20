@@ -1,10 +1,11 @@
-import 'package:can_lab_test/function/api_func.dart';
-import 'package:can_lab_test/function/auth_func.dart';
-import 'package:can_lab_test/modules/chat/chat.dart';
-import 'package:can_lab_test/modules/chat/chat_controller.dart';
-import 'package:can_lab_test/routes.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:testCoding/function/api_func.dart';
+import 'package:testCoding/function/auth_func.dart';
+import 'package:testCoding/modules/chat/chat.dart';
+import 'package:testCoding/modules/chat/chat_controller.dart';
+import 'package:testCoding/routes.dart';
 
 void main() async {
   await Get.putAsync(() => ApiFunction().init());

@@ -1,10 +1,9 @@
 import 'dart:convert';
-
-import 'package:can_lab_test/function/api_func.dart';
-import 'package:can_lab_test/function/auth_func.dart';
-import 'package:can_lab_test/model/chat_model.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
+import 'package:testCoding/function/api_func.dart';
+import 'package:testCoding/function/auth_func.dart';
+import 'package:testCoding/model/chat_model.dart';
 
 class ChatController extends GetxController {
   final api = Get.find<ApiFunction>();

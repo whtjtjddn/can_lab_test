@@ -1,8 +1,8 @@
-import 'package:can_lab_test/model/chat_model.dart';
-import 'package:can_lab_test/modules/chat/chat_controller.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:intl/intl.dart';
+import 'package:testCoding/model/chat_model.dart';
+import 'package:testCoding/modules/chat/chat_controller.dart';
 
 class ChatDetail extends GetView<ChatController> {
   List<Chats>? chatting = [];

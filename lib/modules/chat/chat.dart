@@ -1,7 +1,8 @@
-import 'package:can_lab_test/modules/chat/chat_controller.dart';
-import 'package:can_lab_test/modules/chat/chat_detail.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:testCoding/modules/chat/chat_controller.dart';
+import 'package:testCoding/modules/chat/chat_detail.dart';
 
 class ChatPage extends GetView<ChatController> {
   const ChatPage({super.key});

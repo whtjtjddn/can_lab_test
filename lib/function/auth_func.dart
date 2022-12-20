@@ -2,10 +2,10 @@
 
 import 'dart:convert';
 
-import 'package:can_lab_test/function/api_func.dart';
-import 'package:can_lab_test/model/user_model.dart';
 import 'package:get/get.dart';
 import 'package:logger/logger.dart';
+import 'package:testCoding/function/api_func.dart';
+import 'package:testCoding/model/user_model.dart';
 
 class AuthFunction extends GetxService {
   var logger = Logger(
